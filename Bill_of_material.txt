@@ -1,0 +1,6 @@
+BOM
+
+TJC4827T043_011 - 4.3" display
+Arduino Uno or other compatible
+PLA143 - Solid State Relay
+X9C103 - Digital potentiometer
