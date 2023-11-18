@@ -33,8 +33,9 @@ poza_label.grid(columnspan=1,column=1,row=0)
 ##instructions = tk.Label(root,text="vezi tu pe ce butoane apesi")
 ##instructions.grid(columnspan=1,column=1,row=0)
 
+#roor.destroy
 next_text = tk.StringVar()
-next_btn = tk.Button(root, width=5, textvariable=next_text, font="Raleway", bg="#20bebe", fg="white", border="4")
+next_btn = tk.Button(root, width=5, textvariable=next_text, font="Raleway", bg="#20bebe", fg="white", border="4",command=root.destroy)
 next_text.set(">>")
 next_btn.grid(column=1, row=0)
 next_btn.place(x=360, y=230)
@@ -63,7 +64,7 @@ OFF_text.set("OPRIT")
 OFF_btn.grid(column=1, row=0)
 OFF_btn.place(x=230, y=220)
 
-#uncomment if you want to remove menu bar(daca vrei sa scoti bara de meniu):
-#root.overrideredirect(1)
+#if you want to remove menu bar:
+root.overrideredirect(1)
 
 root.mainloop()
