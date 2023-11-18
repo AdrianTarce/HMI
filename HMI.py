@@ -63,7 +63,7 @@ OFF_text.set("OPRIT")
 OFF_btn.grid(column=1, row=0)
 OFF_btn.place(x=230, y=220)
 
-#if you want to remove menu bar/daca vrei sa scoti bara de meniu:
-root.overrideredirect(1)
+#uncomment if you want to remove menu bar(daca vrei sa scoti bara de meniu):
+#root.overrideredirect(1)
 
 root.mainloop()
